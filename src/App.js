@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Loginbox from './components/Loginbox';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Test Heading</h1>
+      <Navbar />
+      <Loginbox />
     </div>
   );
 }
